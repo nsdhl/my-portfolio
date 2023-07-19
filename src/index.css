@@ -1,12 +1,50 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Outfit', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-    background: #000;
+  background: #000;
+}
+
+.btn {
+  padding: 12px 32px;
+  border: 1px solid #fff;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-light {
+  background: transparent;
+  color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-light:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  transition: all 0.3s ease-in-out;
 }
