@@ -5,11 +5,13 @@
   }
 
 
-.label {
+label {
     color: #fff;
     margin-bottom: 1.5rem;
     font-size: 1.2rem;
-}
+    }
+
+
 
 .form {
     display: flex;
@@ -17,6 +19,8 @@
     padding: 4rem 1rem;
     margin: auto;
     max-width: 600px;
+    justify-content: center;
+    align-items: center;    
 }
 
 form input, form textarea {

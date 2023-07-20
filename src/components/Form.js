@@ -3,11 +3,11 @@ import "./FormStyles.css"
 const Form = () => {
     return <div className="form">
         <form>
-            <label>Your Name</label>
+            <label></label>
             <input type="text" placeholder="Your Name" />
-            <label>Your Email</label>
+            <label></label>
             <input type="email" placeholder="Your Email" />
-            <label>Your Message</label>
+            <label></label>
             <textarea rows="6" placeholder="Your Message"></textarea>
             <br></br>
             <button className="btn-form">submit</button>
