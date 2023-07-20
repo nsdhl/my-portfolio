@@ -15,7 +15,7 @@ const PricingCard = () => {
           <p>- 3 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <Link to="/contact" className="btn"> 
+          <Link to="/contact" className="btn-price"> 
           PURCHASE NOW
           </Link>
 
@@ -28,7 +28,7 @@ const PricingCard = () => {
           <p>- 5 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <Link to="/contact" className="btn"> 
+          <Link to="/contact" className="btn-price"> 
           PURCHASE NOW
           </Link>
 
@@ -41,7 +41,7 @@ const PricingCard = () => {
           <p>- 8 Pages -</p>
           <p>- Featured -</p>
           <p>- Responsive Design -</p>
-          <Link to="/contact" className="btn"> 
+          <Link to="/contact" className="btn-price"> 
           PURCHASE NOW
           </Link>
 
