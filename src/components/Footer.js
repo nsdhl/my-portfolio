@@ -1,5 +1,12 @@
 import "./FooterStyles.css";
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import {
+  FaHome,
+  FaPhone,
+  FaMailBulk,
+  FaFacebook,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa";
 
 import React from "react";
 
@@ -40,13 +47,26 @@ const Footer = () => {
       <div className="right">
         <h4>About Me</h4>
         <p>
-          This is me Nischal Dahal, Software Developer. I enjoy coding and
-          believe that coding is an artform.
+          I am Nischal Dahal, and I am a passionate software developer
+          hailing from Nepal. 
+          <br>
+          </br>Coding holds a special place in my heart, and I
+          view it as an art form, where creativity <br>
+          </br> and logic come together to
+          craft elegant solutions. I am a self-taught developer, and <br>
+          </br>I am always
+          looking for new opportunities to learn and grow.
         </p>
         <div className="social-media">
-            <FaFacebook size={20} style={{ color: "#fff", marginRight: "1rem" }} />
-            <FaGithub size={20} style={{ color: "#fff", marginRight: "1rem" }} />
-            <FaLinkedin size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+          <FaFacebook
+            size={20}
+            style={{ color: "#fff", marginRight: "1rem" }}
+          />
+          <FaGithub size={20} style={{ color: "#fff", marginRight: "1rem" }} />
+          <FaLinkedin
+            size={20}
+            style={{ color: "#fff", marginRight: "1rem" }}
+          />
         </div>
       </div>
     </div>
