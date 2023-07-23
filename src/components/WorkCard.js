@@ -1,21 +1,17 @@
 import "./WorkCardStyles.css"
 
 import React from 'react'
-import Pro from "../assets/project1.jpeg"
 import { NavLink } from "react-router-dom"
 
-const WorkCard = () => {
+const WorkCard = (props) => {
   return (
-    <div className="work-container">
-        <h1 className="project-heading">projects</h1>
-        <div className="project-container">
-            <div className="project-card">
-                <img src={Pro} alt="project" className="project-img" />
-                <h2 className="project-title">Project Title</h2>
+    <div className="project-card">
+                <img src={props.imgsrc} alt="project" className="project-img" />
+                <h2 className="project-title">{props.title}</h2>
                 <div className="project-details">
-                <p>This is a text</p>
+                <p>{props.text}</p>
                 <div className="pro-btns">
-                    <NavLink to="/project" className="pro-btn">View</NavLink>
+                    <NavLink to={props.view} className="pro-btn">View</NavLink>
                     <NavLink to="/project" className="pro-btn">Source</NavLink>
 
                 </div>
@@ -24,9 +20,6 @@ const WorkCard = () => {
                 </div>
 
                 </div>
-        </div>
-      
-    </div>
   )
 }
 
